@@ -1,6 +1,4 @@
-﻿global using Newtonsoft.Json;
-
-namespace DotNet8.EFCoreQueryFilterExample.Extensions
+﻿namespace DotNet8.EFCoreQueryFilterExample.Extensions
 {
     public static class Extension
     {
