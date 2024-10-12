@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Diagnostics;
-
-namespace DotNet8.EFCoreQueryFilterExample.Exceptions
+﻿namespace DotNet8.EFCoreQueryFilterExample.Exceptions
 {
     public class GlobalExceptionHandler : IExceptionHandler
     {
