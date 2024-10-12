@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿global using Microsoft.EntityFrameworkCore;
 
 namespace DotNet8.EFCoreQueryFilterExample.AppDbContextModels;
 
