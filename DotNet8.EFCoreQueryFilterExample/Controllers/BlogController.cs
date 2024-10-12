@@ -1,30 +1,29 @@
 ﻿using DotNet8.EFCoreQueryFilterExample.AppDbContextModels;
 
-namespace DotNet8.EFCoreQueryFilterExample.Controllers
+namespace DotNet8.EFCoreQueryFilterExample.Controllers;
+
+[Route("api/[controller]")]
+[ApiController]
+public class BlogController : BaseController
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class BlogController : BaseController
+    private readonly AppDbContext _appDbContext;
+
+    public BlogController(AppDbContext appDbContext)
     {
-        private readonly AppDbContext _appDbContext;
+        _appDbContext = appDbContext;
+    }
 
-        public BlogController(AppDbContext appDbContext)
+    [HttpGet]
+    public async Task<IActionResult> GetBlogsAsync(CancellationToken cs)
+    {
+        try
         {
-            _appDbContext = appDbContext;
+            var lst = await _appDbContext.Tbl_Blog.ToListAsync(cs);
+            return Content(lst);
         }
-
-        [HttpGet]
-        public async Task<IActionResult> GetBlogsAsync(CancellationToken cs)
+        catch (Exception ex)
         {
-            try
-            {
-                var lst = await _appDbContext.Tbl_Blog.ToListAsync(cs);
-                return Content(lst);
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
+            throw;
         }
     }
 }
