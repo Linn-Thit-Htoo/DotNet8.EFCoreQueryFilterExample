@@ -5,3 +5,4 @@ global using Microsoft.AspNetCore.Mvc;
 global using DotNet8.EFCoreQueryFilterExample.AppDbContextModels;
 global using Microsoft.AspNetCore.Diagnostics;
 global using Newtonsoft.Json;
+global using DotNet8.EFCoreQueryFilterExample.Exceptions;
