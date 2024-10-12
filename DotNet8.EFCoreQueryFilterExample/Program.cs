@@ -1,6 +1,4 @@
-using DotNet8.EFCoreQueryFilterExample.AppDbContextModels;
 using DotNet8.EFCoreQueryFilterExample.Exceptions;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
