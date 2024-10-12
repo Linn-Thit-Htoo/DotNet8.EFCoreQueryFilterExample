@@ -1,0 +1,6 @@
+@DotNet8.EFCoreQueryFilterExample_HostAddress = http://localhost:5022
+
+GET {{DotNet8.EFCoreQueryFilterExample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
