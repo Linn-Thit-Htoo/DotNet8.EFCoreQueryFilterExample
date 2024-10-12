@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿global using Newtonsoft.Json;
 
 namespace DotNet8.EFCoreQueryFilterExample.Extensions
 {
