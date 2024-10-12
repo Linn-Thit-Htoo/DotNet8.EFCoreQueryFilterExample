@@ -1,7 +1,4 @@
 ﻿using DotNet8.EFCoreQueryFilterExample.AppDbContextModels;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace DotNet8.EFCoreQueryFilterExample.Controllers
 {
