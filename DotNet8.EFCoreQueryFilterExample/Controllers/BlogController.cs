@@ -1,6 +1,4 @@
-﻿using DotNet8.EFCoreQueryFilterExample.AppDbContextModels;
-
-namespace DotNet8.EFCoreQueryFilterExample.Controllers;
+﻿namespace DotNet8.EFCoreQueryFilterExample.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
