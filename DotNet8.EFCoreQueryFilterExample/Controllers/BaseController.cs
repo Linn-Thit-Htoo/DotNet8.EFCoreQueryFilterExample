@@ -1,5 +1,5 @@
-﻿using DotNet8.EFCoreQueryFilterExample.Extensions;
-using Microsoft.AspNetCore.Mvc;
+﻿global using DotNet8.EFCoreQueryFilterExample.Extensions;
+global using Microsoft.AspNetCore.Mvc;
 
 namespace DotNet8.EFCoreQueryFilterExample.Controllers;
 
