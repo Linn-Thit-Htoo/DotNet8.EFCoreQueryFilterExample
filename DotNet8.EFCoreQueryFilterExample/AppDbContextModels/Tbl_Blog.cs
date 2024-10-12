@@ -1,6 +1,4 @@
-﻿global using System.ComponentModel.DataAnnotations;
-
-namespace DotNet8.EFCoreQueryFilterExample.AppDbContextModels;
+﻿namespace DotNet8.EFCoreQueryFilterExample.AppDbContextModels;
 
 public class Tbl_Blog
 {
